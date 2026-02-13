@@ -11,7 +11,7 @@
   border: solid 2px white;
   box-shadow: 0 2px 5px black;
   border-radius: 5px;
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
 body {
@@ -60,11 +60,13 @@ body {
 .operator {
   background-color: rgb(235, 95, 137);
   color: azure;
+  font-size: 40px;
 }
 .equals {
   background-color: rgb(37, 209, 45);
   grid-row: span 2;
   color: #fff;
+  font-size: 40px;
 }
 @media (max-width: 480px) {
   button {
@@ -72,3 +74,4 @@ body {
     font-size: 16px;
   }
 }
+
